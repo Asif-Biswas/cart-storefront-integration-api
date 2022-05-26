@@ -29,4 +29,4 @@ Now click any file inside **Cypress** app to start testing.
 	$ node cucumber-html-report.js
 ```
 Then open **index.html** file in a browser.
-index.html file path: (project_dir)/reports/cucumber-htmlreport.html/index.html
+index.html file path: (project_dir)/index.html
