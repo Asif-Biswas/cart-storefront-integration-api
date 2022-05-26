@@ -45,7 +45,7 @@ report.generate({
 // move the index.html file to the cucumber-html-reports folder
 fs.rename(folderName+'/index.html', './reports/cucumber-html-reports'+'/'+yyyy+'-'+mm+'-'+dd+'-'+'cucumber-html-report.html', function (err) {	
     if (err) {
-        console.log(err, 'error');
+        console.log(err);
     } else {
         fs.readFile('./reports/cucumber-html-reports'+'/'+yyyy+'-'+mm+'-'+dd+'-'+'cucumber-html-report.html', 'utf8', function (err,data) {
             if (err) {
@@ -69,15 +69,15 @@ fs.rename(folderName+'/index.html', './reports/cucumber-html-reports'+'/'+yyyy+'
 // first delete the folder if './reports/cucumber-html-reports'+'/'+yyyy+'-'+mm+'-'+dd+'-'+'features' exists
 fs.rm('./reports/cucumber-html-reports'+'/'+yyyy+'-'+mm+'-'+dd+'-'+'features', { recursive: true, force: true }, function (err) {
     if (err) {
-        console.log(err, '111111111');
+        console.log(err);
     } else {
         fs.rename(folderName+'/features', './reports/cucumber-html-reports/'+yyyy+'-'+mm+'-'+dd+'-'+'features', function (err) {
             if (err) {
-                console.log(err, '2222222222');
+                console.log(err);
             } else {
                 fs.rm(folderName, { recursive: true, force: true }, function (err) {
                     if (err) {
-                        console.log(err, '3333333333');
+                        console.log(err);
                     }
                 });
             }
@@ -95,9 +95,28 @@ function updateFileList(){
             fileList = fileList[1].split('];');
             fileList = fileList[0].split(',');
             const newFile = '"'+yyyy+'-'+mm+'-'+dd+'-'+'cucumber-html-report.html'+'"'
+
             // if the file is not in the fileList, add it
+            while (fileList.length > 30) {
+                const fileName = fileList.pop();
+                const fileDir = './reports/cucumber-html-reports/' + fileName.replace(/"/g, '');
+                fs.unlink(fileDir, function (err) {
+                    if (err) {
+                        console.log(err);
+                    }
+                });
+                // remove the yyyy-mm-dd-features folder
+                const date = fileName.split('-')[0] + '-' + fileName.split('-')[1] + '-' + fileName.split('-')[2];
+                fs.rm('./reports/cucumber-html-reports/'+date+'-features', { recursive: true, force: true }, function (err) {
+                    if (err) {
+                        console.log(err);
+                    }
+                });
+            }
+
             if (fileList.indexOf(newFile) == -1) {
-                fileList.push(newFile);
+                // append it at first position
+                fileList.unshift(newFile);
                 fileList = fileList.join(',');
                 fileList = 'var fileList = ['+fileList+'];';
                 fs.writeFile('./reports/cucumber-html-reports/fileList.js', fileList, 'utf8', function (err) {
