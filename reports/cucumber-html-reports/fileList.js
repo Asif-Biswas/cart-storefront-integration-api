@@ -1,1 +1,1 @@
-var fileList = ["2022-5-26-cucumber-html-report.html","2022-5-25-cucumber-html-report.html","2022-5-2-cucumber-html-report.html"];
+var fileList = ["2022-5-26-cucumber-html-report.html","2022-5-25-cucumber-html-report.html"];

@@ -98,33 +98,34 @@ function updateFileList(){
 
             // if the file is not in the fileList, add it
             while (fileList.length > 30) {
-                const fileName = fileList.pop();
+                let fileName = fileList.pop();
+                
                 const fileDir = './reports/cucumber-html-reports/' + fileName.replace(/"/g, '');
                 fs.unlink(fileDir, function (err) {
                     if (err) {
                         console.log(err);
                     }
                 });
-                // remove the yyyy-mm-dd-features folder
                 const date = fileName.split('-')[0] + '-' + fileName.split('-')[1] + '-' + fileName.split('-')[2];
-                fs.rm('./reports/cucumber-html-reports/'+date+'-features', { recursive: true, force: true }, function (err) {
+                fs.rm('./reports/cucumber-html-reports/'+date.replace(/"/g, '')+'-features', { recursive: true, force: true }, function (err) {
                     if (err) {
                         console.log(err);
                     }
                 });
+                
             }
 
             if (fileList.indexOf(newFile) == -1) {
                 // append it at first position
                 fileList.unshift(newFile);
-                fileList = fileList.join(',');
+            }
+            fileList = fileList.join(',');
                 fileList = 'var fileList = ['+fileList+'];';
                 fs.writeFile('./reports/cucumber-html-reports/fileList.js', fileList, 'utf8', function (err) {
                     if (err) {
                         console.log(err);
                     }
                 });
-            }
         }
     });
 }
