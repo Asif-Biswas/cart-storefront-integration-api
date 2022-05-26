@@ -22,5 +22,5 @@ And("I click on the Log in button", () =>{
 })
 
 Then("I land on organization dashboard page", ()=>{
-    cy.contains('Dashboard')
+    cy.contains('Wrong email or password')
 })

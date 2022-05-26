@@ -22,7 +22,7 @@
             "name": "I logged in and visit cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 135708000000
+              "duration": 792289000000
             }
           },
           {
@@ -31,8 +31,9 @@
             "line": 6,
             "name": "I click the dropdown menu",
             "result": {
-              "status": "passed",
-              "duration": 1528000000
+              "status": "failed",
+              "duration": 5973000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button > svg`, but never found it.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigationForLoggedinUser.feature:209:10)"
             }
           },
           {
@@ -41,8 +42,7 @@
             "line": 7,
             "name": "click the \"Storefront\"",
             "result": {
-              "status": "passed",
-              "duration": 411000000
+              "status": "skipped"
             }
           },
           {
@@ -51,8 +51,7 @@
             "line": 8,
             "name": "I see a page with url \"https://console.cart.com/storefront\"",
             "result": {
-              "status": "passed",
-              "duration": 69000000
+              "status": "skipped"
             }
           }
         ]
@@ -72,7 +71,7 @@
             "name": "I logged in and visit cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 1383000000
+              "duration": 12181000000
             }
           },
           {
@@ -81,8 +80,8 @@
             "line": 6,
             "name": "I click the dropdown menu",
             "result": {
-              "status": "passed",
-              "duration": 1334000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button > svg`, but never found it.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigationForLoggedinUser.feature:209:10)"
             }
           },
           {
@@ -91,8 +90,7 @@
             "line": 7,
             "name": "click the \"Fulfillment\"",
             "result": {
-              "status": "passed",
-              "duration": 550000000
+              "status": "skipped"
             }
           },
           {
@@ -101,8 +99,7 @@
             "line": 8,
             "name": "I see a page with url \"https://console.cart.com/fulfillment\"",
             "result": {
-              "status": "passed",
-              "duration": 72000000
+              "status": "skipped"
             }
           }
         ]
@@ -122,7 +119,7 @@
             "name": "I logged in and visit cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 1544000000
+              "duration": 15526000000
             }
           },
           {
@@ -131,8 +128,8 @@
             "line": 6,
             "name": "I click the dropdown menu",
             "result": {
-              "status": "passed",
-              "duration": 1398000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button > svg`, but never found it.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigationForLoggedinUser.feature:209:10)"
             }
           },
           {
@@ -141,8 +138,7 @@
             "line": 7,
             "name": "click the \"Dashboard\"",
             "result": {
-              "status": "passed",
-              "duration": 480000000
+              "status": "skipped"
             }
           },
           {
@@ -151,8 +147,7 @@
             "line": 8,
             "name": "I see a page with url \"https://console.cart.com/unified-analytics/dashboard\"",
             "result": {
-              "status": "passed",
-              "duration": 64000000
+              "status": "skipped"
             }
           }
         ]
@@ -172,7 +167,7 @@
             "name": "I logged in and visit cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 1522000000
+              "duration": 12752000000
             }
           },
           {
@@ -181,8 +176,8 @@
             "line": 6,
             "name": "I click the dropdown menu",
             "result": {
-              "status": "passed",
-              "duration": 1262000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button > svg`, but never found it.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigationForLoggedinUser.feature:209:10)"
             }
           },
           {
@@ -191,8 +186,7 @@
             "line": 7,
             "name": "click the \"Multichannel Management\"",
             "result": {
-              "status": "passed",
-              "duration": 418000000
+              "status": "skipped"
             }
           },
           {
@@ -201,8 +195,7 @@
             "line": 8,
             "name": "I see a page with url \"https://console.cart.com/multichannel-management\"",
             "result": {
-              "status": "passed",
-              "duration": 57000000
+              "status": "skipped"
             }
           }
         ]
@@ -222,7 +215,7 @@
             "name": "I logged in and visit cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 1343000000
+              "duration": 35212000000
             }
           },
           {
@@ -231,8 +224,8 @@
             "line": 6,
             "name": "I click the dropdown menu",
             "result": {
-              "status": "passed",
-              "duration": 1401000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button > svg`, but never found it.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigationForLoggedinUser.feature:209:10)"
             }
           },
           {
@@ -241,8 +234,7 @@
             "line": 7,
             "name": "click the \"Growth Marketing\"",
             "result": {
-              "status": "passed",
-              "duration": 478000000
+              "status": "skipped"
             }
           },
           {
@@ -251,8 +243,7 @@
             "line": 8,
             "name": "I see a page with url \"https://console.cart.com/growth-marketing\"",
             "result": {
-              "status": "passed",
-              "duration": 64000000
+              "status": "skipped"
             }
           }
         ]
@@ -272,7 +263,7 @@
             "name": "I logged in and visit cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 1353000000
+              "duration": 15782000000
             }
           },
           {
@@ -281,8 +272,8 @@
             "line": 6,
             "name": "I click the dropdown menu",
             "result": {
-              "status": "passed",
-              "duration": 1227000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button > svg`, but never found it.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigationForLoggedinUser.feature:209:10)"
             }
           },
           {
@@ -291,8 +282,7 @@
             "line": 7,
             "name": "click the \"Customer Engagement\"",
             "result": {
-              "status": "passed",
-              "duration": 487000000
+              "status": "skipped"
             }
           },
           {
@@ -301,8 +291,7 @@
             "line": 8,
             "name": "I see a page with url \"https://console.cart.com/customer-engagement\"",
             "result": {
-              "status": "passed",
-              "duration": 61000000
+              "status": "skipped"
             }
           }
         ]
@@ -322,7 +311,7 @@
             "name": "I logged in and visit cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 1197000000
+              "duration": 11120000000
             }
           },
           {
@@ -331,8 +320,8 @@
             "line": 6,
             "name": "I click the dropdown menu",
             "result": {
-              "status": "passed",
-              "duration": 1087000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button > svg`, but never found it.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigationForLoggedinUser.feature:209:10)"
             }
           },
           {
@@ -341,8 +330,7 @@
             "line": 7,
             "name": "click the \"Marketplace Services\"",
             "result": {
-              "status": "passed",
-              "duration": 410000000
+              "status": "skipped"
             }
           },
           {
@@ -351,8 +339,7 @@
             "line": 8,
             "name": "I see a page with url \"https://console.cart.com/marketplace-services\"",
             "result": {
-              "status": "passed",
-              "duration": 54000000
+              "status": "skipped"
             }
           }
         ]
@@ -372,7 +359,7 @@
             "name": "I logged in and visit cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 1392000000
+              "duration": 15646000000
             }
           },
           {
@@ -381,8 +368,8 @@
             "line": 6,
             "name": "I click the dropdown menu",
             "result": {
-              "status": "passed",
-              "duration": 1300000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button > svg`, but never found it.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigationForLoggedinUser.feature:209:10)"
             }
           },
           {
@@ -391,8 +378,7 @@
             "line": 7,
             "name": "click the \"Data Science Solutions\"",
             "result": {
-              "status": "passed",
-              "duration": 428000000
+              "status": "skipped"
             }
           },
           {
@@ -401,8 +387,7 @@
             "line": 8,
             "name": "I see a page with url \"https://console.cart.com/data-science-solutions\"",
             "result": {
-              "status": "passed",
-              "duration": 60000000
+              "status": "skipped"
             }
           }
         ]
@@ -422,7 +407,7 @@
             "name": "I logged in and visit cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 1307000000
+              "duration": 52470000000
             }
           },
           {
@@ -431,8 +416,8 @@
             "line": 6,
             "name": "I click the dropdown menu",
             "result": {
-              "status": "passed",
-              "duration": 1325000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `button > svg`, but never found it.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigationForLoggedinUser.feature:209:10)"
             }
           },
           {
@@ -441,8 +426,7 @@
             "line": 7,
             "name": "click the \"Growth Capital\"",
             "result": {
-              "status": "passed",
-              "duration": 345000000
+              "status": "skipped"
             }
           },
           {
@@ -451,8 +435,7 @@
             "line": 8,
             "name": "I see a page with url \"https://console.cart.com/growth-capital\"",
             "result": {
-              "status": "passed",
-              "duration": 63000000
+              "status": "skipped"
             }
           }
         ]

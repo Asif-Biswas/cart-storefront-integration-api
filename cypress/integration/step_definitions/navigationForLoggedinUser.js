@@ -9,6 +9,7 @@ beforeEach(() => {
     Given("I logged in and visit cart.com homepage", () => {
         cy.login(Cypress.env('auth0_username'), Cypress.env('auth0_password'))
         cy.visit('https://console.cart.com')
+        cy.wait(15000)
     })
 })
 

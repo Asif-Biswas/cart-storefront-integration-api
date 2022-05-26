@@ -22,7 +22,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 3648000000
+              "duration": 19786000000
             }
           },
           {
@@ -31,8 +31,9 @@
             "line": 9,
             "name": "I click \"Create Account\"",
             "result": {
-              "status": "passed",
-              "duration": 2196000000
+              "status": "failed",
+              "duration": 244000000,
+              "error_message": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `undefined`\n\nThe previous command that ran was:\n\n  > `cy.contains()`\n    at ensureElement (https://console.cart.com/__cypress/runner/cypress_runner.js:167999:76)\n    at validateType (https://console.cart.com/__cypress/runner/cypress_runner.js:167822:16)\n    at $Cy.ensureSubjectByType (https://console.cart.com/__cypress/runner/cypress_runner.js:167858:9)\n    at $Cy.pushSubjectAndValidate (https://console.cart.com/__cypress/runner/cypress_runner.js:178651:12)\n    at Context.<anonymous> (https://console.cart.com/__cypress/runner/cypress_runner.js:178135:19)\nFrom Your Spec Code:\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\automationTest\\registration.feature:173:23)\n    at Context.resolveAndRunStepDefinition (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\automationTest\\registration.feature:13195:29)\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\automationTest\\registration.feature:12516:35)"
             }
           },
           {
@@ -41,8 +42,7 @@
             "line": 10,
             "name": "I see \"First name\"",
             "result": {
-              "status": "passed",
-              "duration": 16000000
+              "status": "skipped"
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 1636000000
+              "duration": 2587000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I click \"Create Account\"",
             "result": {
               "status": "passed",
-              "duration": 1185000000
+              "duration": 6184000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I click Create Account button",
             "result": {
               "status": "passed",
-              "duration": 214000000
+              "duration": 930000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I see \"This field is required\"",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 126000000
             }
           }
         ]
@@ -112,7 +112,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 3971000000
+              "duration": 3357000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I click \"Create Account\"",
             "result": {
               "status": "passed",
-              "duration": 1106000000
+              "duration": 5388000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "I fill in the form with the following information and submit without filling \"First name\"",
             "result": {
               "status": "passed",
-              "duration": 1864000000
+              "duration": 4878000000
             }
           },
           {
@@ -163,7 +163,7 @@
             "name": "I see \"This field is required\"",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 81000000
             }
           }
         ]
@@ -183,7 +183,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 1103000000
+              "duration": 8556000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "I click \"Create Account\"",
             "result": {
               "status": "passed",
-              "duration": 1265000000
+              "duration": 3686000000
             }
           },
           {
@@ -224,7 +224,7 @@
             "name": "I fill in the form with the following information and submit without filling \"Last name\"",
             "result": {
               "status": "passed",
-              "duration": 2036000000
+              "duration": 4386000000
             }
           },
           {
@@ -234,7 +234,7 @@
             "name": "I see \"This field is required\"",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 76000000
             }
           }
         ]
@@ -254,7 +254,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 4298000000
+              "duration": 3759000000
             }
           },
           {
@@ -264,7 +264,7 @@
             "name": "I click \"Create Account\"",
             "result": {
               "status": "passed",
-              "duration": 1345000000
+              "duration": 5161000000
             }
           },
           {
@@ -295,7 +295,7 @@
             "name": "I fill in the form with the following information and submit without filling \"Password\"",
             "result": {
               "status": "passed",
-              "duration": 1899000000
+              "duration": 3678000000
             }
           },
           {
@@ -305,7 +305,7 @@
             "name": "I see \"This field is required\"",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 97000000
             }
           }
         ]
@@ -325,7 +325,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 5137000000
+              "duration": 3573000000
             }
           },
           {
@@ -335,7 +335,7 @@
             "name": "I click \"Create Account\"",
             "result": {
               "status": "passed",
-              "duration": 1141000000
+              "duration": 7828000000
             }
           },
           {
@@ -366,7 +366,7 @@
             "name": "I fill in the form with the following information and submit without filling \"Phone\"",
             "result": {
               "status": "passed",
-              "duration": 1879000000
+              "duration": 3758000000
             }
           },
           {
@@ -376,7 +376,7 @@
             "name": "I see \"This field is required\"",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 91000000
             }
           }
         ]
@@ -396,7 +396,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 3771000000
+              "duration": 12217000000
             }
           },
           {
@@ -406,7 +406,7 @@
             "name": "I click \"Create Account\"",
             "result": {
               "status": "passed",
-              "duration": 1290000000
+              "duration": 4766000000
             }
           },
           {
@@ -437,7 +437,7 @@
             "name": "I fill in the form with the following information and submit without filling \"Email\"",
             "result": {
               "status": "passed",
-              "duration": 1924000000
+              "duration": 4308000000
             }
           },
           {
@@ -447,98 +447,7 @@
             "name": "I see \"This field is required\"",
             "result": {
               "status": "passed",
-              "duration": 20000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "registration;fill-in-the-form-with-valid-information-and-submit",
-        "keyword": "Scenario",
-        "line": 59,
-        "name": "Fill in the form with valid information and submit",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I visit https://console.cart.com",
-            "result": {
-              "status": "passed",
-              "duration": 4250000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 60,
-            "name": "user click the Create Account button",
-            "result": {
-              "status": "passed",
-              "duration": 1149000000
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "firstname",
-                      "lastname",
-                      "password",
-                      "phone"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "John",
-                      "Doe",
-                      "@Testing11",
-                      "1234567890"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "And ",
-            "line": 61,
-            "name": "the user fill in the form with the following information and submit",
-            "result": {
-              "status": "passed",
-              "duration": 1787000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 64,
-            "name": "the user see the Create Organization button and click it",
-            "result": {
-              "status": "passed",
-              "duration": 5717000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 65,
-            "name": "the user fill the organization form and submit",
-            "result": {
-              "status": "passed",
-              "duration": 5155000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 66,
-            "name": "the user should be redirected to the homepage with the text \"Welcome to Cart.com\"",
-            "result": {
-              "status": "passed",
-              "duration": 1496000000
+              "duration": 74000000
             }
           }
         ]

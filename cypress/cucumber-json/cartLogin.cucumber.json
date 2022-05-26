@@ -22,7 +22,7 @@
             "name": "I go to the url https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 5577000000
+              "duration": 174156000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I enter valid email",
             "result": {
               "status": "passed",
-              "duration": 1020000000
+              "duration": 2224000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I enter valid password",
             "result": {
               "status": "passed",
-              "duration": 317000000
+              "duration": 640000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on the Log in button",
             "result": {
               "status": "passed",
-              "duration": 151000000
+              "duration": 382000000
             }
           },
           {
@@ -61,9 +61,8 @@
             "line": 8,
             "name": "I land on organization dashboard page",
             "result": {
-              "status": "failed",
-              "duration": 4026000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Dashboard' but never did.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/cartLogin.feature:63:6)\n    at Context.resolveAndRunStepDefinition (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/cartLogin.feature:13192:29)\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/cartLogin.feature:12513:35)"
+              "status": "passed",
+              "duration": 464000000
             }
           }
         ]

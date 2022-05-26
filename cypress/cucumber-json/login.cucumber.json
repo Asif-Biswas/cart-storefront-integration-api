@@ -22,7 +22,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 113265000000
+              "duration": 403297000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I see the title \"welcomeTitle\"",
             "result": {
               "status": "passed",
-              "duration": 1107000000
+              "duration": 11143000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I fill username with \"email\" and password with \"password\" as \"invalid\" data",
             "result": {
               "status": "passed",
-              "duration": 974000000
+              "duration": 10345000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "click the login button",
             "result": {
               "status": "passed",
-              "duration": 159000000
+              "duration": 547000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I see \"Wrong email or password\"",
             "result": {
               "status": "passed",
-              "duration": 270000000
+              "duration": 819000000
             }
           }
         ]
@@ -82,7 +82,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 1034000000
+              "duration": 11509000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I see the title \"welcomeTitle\"",
             "result": {
               "status": "passed",
-              "duration": 1045000000
+              "duration": 5832000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I fill \"password\" with \"valid\" data",
             "result": {
               "status": "passed",
-              "duration": 417000000
+              "duration": 1345000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "click the login button",
             "result": {
               "status": "passed",
-              "duration": 206000000
+              "duration": 475000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I see \"Please enter your e-mail address and password\"",
             "result": {
               "status": "passed",
-              "duration": 31000000
+              "duration": 68000000
             }
           }
         ]
@@ -142,7 +142,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 1318000000
+              "duration": 3345000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "I see the title \"welcomeTitle\"",
             "result": {
               "status": "passed",
-              "duration": 856000000
+              "duration": 5794000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "I fill the \"email\" field as \"valid\" data",
             "result": {
               "status": "passed",
-              "duration": 464000000
+              "duration": 2112000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "click the login button",
             "result": {
               "status": "passed",
-              "duration": 184000000
+              "duration": 440000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "I see \"Please enter your e-mail address and password\"",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 88000000
             }
           }
         ]
@@ -202,7 +202,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 887000000
+              "duration": 3879000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "I see the title \"welcomeTitle\"",
             "result": {
               "status": "passed",
-              "duration": 881000000
+              "duration": 3754000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "I fill the \"email\" field as \"valid\" data",
             "result": {
               "status": "passed",
-              "duration": 548000000
+              "duration": 1635000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "click the Forgot Password link",
             "result": {
               "status": "passed",
-              "duration": 123000000
+              "duration": 607000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "I see \"We've just sent you an email to reset your password\"",
             "result": {
               "status": "passed",
-              "duration": 112000000
+              "duration": 735000000
             }
           }
         ]
@@ -262,7 +262,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 1003000000
+              "duration": 3607000000
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "I see the title \"welcomeTitle\"",
             "result": {
               "status": "passed",
-              "duration": 921000000
+              "duration": 3285000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "I click the Forgot Password link",
             "result": {
               "status": "passed",
-              "duration": 153000000
+              "duration": 528000000
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "I see \"email or username are required\"",
             "result": {
               "status": "passed",
-              "duration": 502000000
+              "duration": 436000000
             }
           }
         ]
@@ -312,7 +312,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 865000000
+              "duration": 3487000000
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "I see the title \"welcomeTitle\"",
             "result": {
               "status": "passed",
-              "duration": 853000000
+              "duration": 4705000000
             }
           },
           {
@@ -332,7 +332,7 @@
             "name": "I click \"Create Account\"",
             "result": {
               "status": "passed",
-              "duration": 128000000
+              "duration": 564000000
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "Click bottom Log in link",
             "result": {
               "status": "passed",
-              "duration": 228000000
+              "duration": 705000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "I see Log In button exists",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 154000000
             }
           }
         ]
@@ -372,7 +372,7 @@
             "name": "I visit https://console.cart.com",
             "result": {
               "status": "passed",
-              "duration": 890000000
+              "duration": 3629000000
             }
           },
           {
@@ -382,7 +382,7 @@
             "name": "I see the title \"welcomeTitle\"",
             "result": {
               "status": "passed",
-              "duration": 960000000
+              "duration": 5768000000
             }
           },
           {
@@ -392,7 +392,7 @@
             "name": "I fill username with \"email\" and password with \"password\" as \"valid\" data",
             "result": {
               "status": "passed",
-              "duration": 826000000
+              "duration": 2489000000
             }
           },
           {
@@ -402,7 +402,7 @@
             "name": "click the login button",
             "result": {
               "status": "passed",
-              "duration": 163000000
+              "duration": 518000000
             }
           },
           {
@@ -411,8 +411,8 @@
             "line": 45,
             "name": "I land to the homepage with the title \"Welcome to Cart.com!\"",
             "result": {
-              "status": "passed",
-              "duration": 2919000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Welcome to Cart.com!' but never did.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:182:6)\n    at Context.resolveAndRunStepDefinition (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:13195:29)\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:12516:35)"
             }
           }
         ]

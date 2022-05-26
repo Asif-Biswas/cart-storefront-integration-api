@@ -21,9 +21,8 @@
             "line": 4,
             "name": "I am logged in and at homepage",
             "result": {
-              "status": "failed",
-              "duration": 12417000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Welcome to Cart.com!' but never did.\n    at Object.eval [as setup] (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/featuredNavigation.feature:76:8)"
+              "status": "passed",
+              "duration": 153393000000
             }
           },
           {
@@ -32,7 +31,8 @@
             "line": 5,
             "name": "I click the button in \"Storefront\" card",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3552000000
             }
           },
           {
@@ -41,7 +41,8 @@
             "line": 6,
             "name": "a page with url \"https://console.cart.com/storefront\" appears",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 482000000
             }
           }
         ]
@@ -61,7 +62,7 @@
             "name": "I am logged in and at homepage",
             "result": {
               "status": "passed",
-              "duration": 10235000000
+              "duration": 32617000000
             }
           },
           {
@@ -71,7 +72,7 @@
             "name": "I click the button in \"Fulfillment\" card",
             "result": {
               "status": "passed",
-              "duration": 1392000000
+              "duration": 2290000000
             }
           },
           {
@@ -81,7 +82,7 @@
             "name": "a page with url \"https://console.cart.com/fulfillment\" appears",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 343000000
             }
           }
         ]
@@ -101,7 +102,7 @@
             "name": "I am logged in and at homepage",
             "result": {
               "status": "passed",
-              "duration": 3424000000
+              "duration": 31267000000
             }
           },
           {
@@ -111,7 +112,7 @@
             "name": "I click the button in \"Unified Analytics\" card",
             "result": {
               "status": "passed",
-              "duration": 1265000000
+              "duration": 1038000000
             }
           },
           {
@@ -121,7 +122,7 @@
             "name": "a page with url \"https://console.cart.com/unified-analytics/dashboard\" appears",
             "result": {
               "status": "passed",
-              "duration": 914000000
+              "duration": 2897000000
             }
           }
         ]
@@ -141,7 +142,7 @@
             "name": "I am logged in and at homepage",
             "result": {
               "status": "passed",
-              "duration": 2528000000
+              "duration": 28430000000
             }
           },
           {
@@ -151,7 +152,7 @@
             "name": "I click the button in \"Multichannel Management\" card",
             "result": {
               "status": "passed",
-              "duration": 1454000000
+              "duration": 1555000000
             }
           },
           {
@@ -161,7 +162,7 @@
             "name": "a page with url \"https://console.cart.com/multichannel-management\" appears",
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 697000000
             }
           }
         ]
@@ -181,7 +182,7 @@
             "name": "I am logged in and at homepage",
             "result": {
               "status": "passed",
-              "duration": 1502000000
+              "duration": 33984000000
             }
           },
           {
@@ -191,7 +192,7 @@
             "name": "I click the button in \"Growth Marketing\" card",
             "result": {
               "status": "passed",
-              "duration": 1479000000
+              "duration": 2938000000
             }
           },
           {
@@ -201,7 +202,7 @@
             "name": "a page with url \"https://console.cart.com/growth-marketing\" appears",
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 282000000
             }
           }
         ]
@@ -221,7 +222,7 @@
             "name": "I am logged in and at homepage",
             "result": {
               "status": "passed",
-              "duration": 1876000000
+              "duration": 28561000000
             }
           },
           {
@@ -231,7 +232,7 @@
             "name": "I click the button in \"Customer Engagement\" card",
             "result": {
               "status": "passed",
-              "duration": 1391000000
+              "duration": 1492000000
             }
           },
           {
@@ -241,7 +242,7 @@
             "name": "a page with url \"https://console.cart.com/customer-engagement\" appears",
             "result": {
               "status": "passed",
-              "duration": 62000000
+              "duration": 218000000
             }
           }
         ]
@@ -261,7 +262,7 @@
             "name": "I am logged in and at homepage",
             "result": {
               "status": "passed",
-              "duration": 1383000000
+              "duration": 20044000000
             }
           },
           {
@@ -271,7 +272,7 @@
             "name": "I click the button in \"Marketplace Services\" card",
             "result": {
               "status": "passed",
-              "duration": 1487000000
+              "duration": 1493000000
             }
           },
           {
@@ -281,7 +282,7 @@
             "name": "a page with url \"https://console.cart.com/marketplace-services\" appears",
             "result": {
               "status": "passed",
-              "duration": 62000000
+              "duration": 262000000
             }
           }
         ]
@@ -301,7 +302,7 @@
             "name": "I am logged in and at homepage",
             "result": {
               "status": "passed",
-              "duration": 1361000000
+              "duration": 21542000000
             }
           },
           {
@@ -311,7 +312,7 @@
             "name": "I click the button in \"Data Science Solutions\" card",
             "result": {
               "status": "passed",
-              "duration": 1329000000
+              "duration": 6804000000
             }
           },
           {
@@ -321,7 +322,7 @@
             "name": "a page with url \"https://console.cart.com/data-science-solutions\" appears",
             "result": {
               "status": "passed",
-              "duration": 57000000
+              "duration": 191000000
             }
           }
         ]
@@ -341,7 +342,7 @@
             "name": "I am logged in and at homepage",
             "result": {
               "status": "passed",
-              "duration": 1482000000
+              "duration": 19986000000
             }
           },
           {
@@ -351,7 +352,7 @@
             "name": "I click the button in \"Growth Capital\" card",
             "result": {
               "status": "passed",
-              "duration": 1386000000
+              "duration": 1276000000
             }
           },
           {
@@ -361,7 +362,7 @@
             "name": "a page with url \"https://console.cart.com/growth-capital\" appears",
             "result": {
               "status": "passed",
-              "duration": 61000000
+              "duration": 260000000
             }
           }
         ]

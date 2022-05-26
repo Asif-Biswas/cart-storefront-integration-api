@@ -6,6 +6,7 @@ Cypress.Commands.add('login', (username, password) => {
       cy.get('#login-email').type(username)
       cy.get('#login-password').type(password)
       cy.get('#btn-login').click()
+      cy.wait(30000)
       cy.contains('Welcome to Cart.com!')
     })
   })
